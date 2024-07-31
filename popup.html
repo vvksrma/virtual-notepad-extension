@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Notepad</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+</head>
+<body>
+  <div class="header">Virtual Notepad</div>
+  <div class="toolbar">
+    <button id="bold">Bold</button>
+    <button id="italic">Italic</button>
+    <button id="underline">Underline</button>
+    <select id="font-family">
+      <option value="Arial">Arial</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Verdana">Verdana</option>
+    </select>
+    <select id="font-size">
+      <option value="small">Small</option>
+      <option value="medium" selected>Medium</option>
+      <option value="large">Large</option>
+    </select>
+  </div>
+  <div id="notepad-container">
+    <div contenteditable="true" id="notepad" class="notepad"></div>
+    <button id="clear" class="clear-button">Clear</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

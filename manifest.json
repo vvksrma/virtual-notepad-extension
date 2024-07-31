@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Virtual Notepad",
+    "version": "1.0",
+    "description": "A simple virtual notepad with basic text formatting options.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/notepad16.png",
+        "48": "icons/notepad48.png",
+        "128": "icons/notepad128.png"
+      }
+    },
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icons/notepad16.png",
+      "48": "icons/notepad48.png",
+      "128": "icons/notepad128.png"
+    }
+  }
+  

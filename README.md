@@ -2,7 +2,7 @@
 
 A Chrome extension that provides a virtual notepad with basic text editing options like bold, italic, underline, font family, and font size.
 ## Final Product
-![Notepad Screenshot](https://imgur.com/a/me16D4X)
+icons/Screenshot 2024-07-31 222731.jpg
 
 ## Installation
 

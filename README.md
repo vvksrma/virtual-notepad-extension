@@ -1,7 +1,7 @@
 # Virtual Notepad Extension
 
 A Chrome extension that provides a virtual notepad with basic text editing options like bold, italic, underline, font family, and font size.
-## Final Product
+## Screenshot
 [Virtual Notepad](https://github.com/vvksrma/virtual-notepad-extension/blob/main/icons/Screenshot%202024-07-31%20222731.jpg)
 ## Installation
 

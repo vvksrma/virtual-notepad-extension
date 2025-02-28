@@ -1,104 +1,105 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: 500px;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  .header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600; /* Use a bolder weight for header */
-    border-bottom: 2px solid #388E3C;
-  }
-  
-  .toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
-  }
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  background-color: #1e1e1e; /* Dark background */
+  color: #d4d4d4; /* Light text color */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* GitHub Copilot font */
+}
 
-  .toolbar select{
-    margin: 0 5px;
-  }
-  
-  .toolbar button, .toolbar select {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 5px;
-    margin: 0 5px;
-    border-radius: 3px;
-    font-size: 14px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .toolbar button:hover, .toolbar select:hover {
-    background-color: #e0e0e0;
-  }
-  
-  #notepad-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 10px;
-  }
-  
-  
-  .clear-button {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 10px;
-  }
-  
-  .clear-button:hover {
-    background-color: #c62828;
-  }
-  
-  .notepad {
-    border: 5px solid #4CAF50;
-    height: 400px;
-    overflow: auto;
-    padding: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-    font-size: 14px;
-    line-height: 1.5;
-  }
+.header {
+  background: #007acc; /* Blue header */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 2px solid #005a9e; /* Darker blue border */
+}
 
-  .notepad:focus {
-    outline: none;
-  }
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #252526; /* Dark toolbar background */
+  border-bottom: 1px solid #3c3c3c; /* Darker border */
+}
 
+.toolbar select {
+  margin: 0 5px;
+}
 
-  .pin-button {
-    background-color: #ff5722;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-left: 10px;
-  }
-  
-  .pin-button:hover {
-    background-color: #e64a19;
-  }
-  
+.toolbar button, .toolbar select {
+  background-color: #3c3c3c; /* Dark button background */
+  border: 1px solid #555555; /* Darker border */
+  color: #d4d4d4; /* Light text color */
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.toolbar button:hover, .toolbar select:hover {
+  background-color: #555555; /* Slightly lighter on hover */
+}
+
+#notepad-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+
+.clear-button {
+  background-color: #d9534f; /* Red button */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}
+
+.notepad {
+  border: 5px solid #007acc; /* Blue border */
+  height: 400px;
+  overflow: auto;
+  padding: 10px;
+  background-color: #1e1e1e; /* Dark background */
+  color: #d4d4d4; /* Light text color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.notepad:focus {
+  outline: none;
+}
+
+.pin-button {
+  background-color: #ff5722; /* Orange button */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.pin-button:hover {
+  background-color: #e64a19; /* Darker orange on hover */
+}
